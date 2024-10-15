@@ -1,0 +1,48 @@
+{
+    "model": "header",
+    "srcType": "sanity",
+    "srcProjectId": "84ixhz2g:production",
+    "presets": [
+        {
+            "label": "HEADER",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "HEADER"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": "Offensive Tests",
+                "logo": {
+                    "$$type": "customImage",
+                    "image": {
+                        "$$ref": "image-8e737c33be0ea58edebbe791b7612526cfc67df2-168x55-jpg",
+                        "$$type": "__asset_model"
+                    },
+                    "alt": null
+                },
+                "navLinks": [
+                    {
+                        "$$type": "actionLink",
+                        "label": "HOME",
+                        "url": null,
+                        "ariaLabel": null
+                    },
+                    {
+                        "$$type": "actionLink",
+                        "label": "SERVICES",
+                        "url": "/services",
+                        "ariaLabel": null
+                    },
+                    {
+                        "$$type": "actionLink",
+                        "label": "CONTACT US",
+                        "url": null,
+                        "ariaLabel": null
+                    }
+                ]
+            }
+        }
+    ]
+}
